@@ -10,3 +10,8 @@ for n in range(1,10):
     else:
         print("Ungerade")
 
+def ask_age():
+    name = input("what is your age? >> ")
+    return name
+
+print(ask_age())
